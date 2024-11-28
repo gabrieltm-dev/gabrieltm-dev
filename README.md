@@ -21,6 +21,6 @@ My curiosity about the internet and technology as a whole led me to fall in love
 
 ## 📊 Statistics
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=gabrieltm-dev&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=gabrieltm-dev&show_icons=true&theme=Blue-Green" alt="GitHub Stats" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=gabrieltm-dev&theme=radical" alt="GitHub Streak Stats" />
 </p>
