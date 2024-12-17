@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flexbox-user{
+    display: flex;
+    gap: 100px;
+    flex-direction: row;
+    justify-content: center;
+}
