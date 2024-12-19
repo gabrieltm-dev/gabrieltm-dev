@@ -17,7 +17,7 @@
 }
 
 body {
-    min-height: 100vh;
+    box-sizing: border-box;
 	background-color: var(--cor-primaria);
 	color: var(--cor-secundaria);
     position: relative;
@@ -43,8 +43,9 @@ body {
 
 .apresentacao {
 	display: flex;
-    padding: 2% 14% 5% 19%;
 	align-items: center;
+    justify-self: center;
+    padding: 5% 15%;
 	gap: 3em;
 }
 
@@ -126,10 +127,7 @@ body {
     font-weight: 400;
 	font-family: var(--fonte-secundaria);
 	text-align: center;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    left: 0;
+    width: 100vw;
     padding: 10px 0;
 }
 
