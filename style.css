@@ -21,6 +21,9 @@ body {
 	background-color: var(--cor-primaria);
 	color: var(--cor-secundaria);
     position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* Menu superior */
@@ -28,7 +31,8 @@ body {
 .indices {
 	display: flex;
 	gap: 2.5em;
-    padding: 3% 0 0 19%;
+    padding: 3% 0 0 15%;
+    flex-shrink: 0;
 }
 
 .indices a {
@@ -43,16 +47,18 @@ body {
 
 .apresentacao {
 	display: flex;
-	align-items: center;
+	align-items: start;
     justify-self: center;
-    padding: 5% 15%;
+    padding: 3% 15%;
 	gap: 3em;
+    flex: 1;
 }
 
 .conteudo {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
+    flex: 1;
 }
 
 .titulo {
@@ -97,7 +103,8 @@ body {
 	align-items: end;
 	justify-content: center;
 	gap: 0.75em;
-	width: 50%;
+    width: 50%;
+	max-width: 310px;
 	border: 0.175em solid var(--cor-terciaria);
 	border-radius: 0.5em;
 	padding: 1em 1em;
@@ -111,11 +118,12 @@ body {
 .imagem {
 	user-select: none;
     display: flex;
-    width: 80%;
 }
 
 .imagem img {
 	border-radius: 30px;
+    width: 85%;
+    height: auto;
 }
 
 /* Rodapé */
@@ -127,14 +135,15 @@ body {
     font-weight: 400;
 	font-family: var(--fonte-secundaria);
 	text-align: center;
-    width: 100vw;
-    padding: 10px 0;
+    width: 100%;
+    padding: 12px 0;
 }
 
 @media(max-width: 1200px){
     .apresentacao{
         flex-direction: column-reverse;
         padding: 5%;
+        align-items: center;
     }
 
     .imagem img{
