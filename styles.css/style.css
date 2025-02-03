@@ -1,5 +1,5 @@
-/* Atributos globais */
-
+@import url(./reset.css);
+@import url(./projetos.css);
 @import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
@@ -76,6 +76,7 @@ body {
 	font-size: 2.5vh;
 	font-family: var(--fonte-secundaria);
     text-align: center;
+	
 }
 
 .grupo__links {
@@ -83,6 +84,10 @@ body {
 	flex-direction: column;
 	align-items: center;
 	gap: 1.5em;
+}
+
+.grupo__links a {
+	align-items: center;
 }
 
 .text-links {
@@ -158,8 +163,13 @@ body {
     }
 
     .indices{
-        padding: 4vh 0 0 0;
+        padding: 4vh 0 1vh 0;
         justify-content: center;
-        width: 100vw;
-    }
+		gap: 1.5rem;
+	}
+
+	.indices a {
+		font-size: 4vw;
+		text-decoration: underline;
+	}
 }
