@@ -9,7 +9,7 @@
 .board__titulo {
     text-align: center;
     color: var(--cor-secundaria);
-    font-size: 4.5vh;
+    font-size: 3rem;
     font-family: var(--fonte-principal);
     padding: 3rem 0 5rem 0;
 }
@@ -58,6 +58,11 @@
     .board{
         margin: 2rem 1rem;
         padding: 0;
+    }
+
+    .board__titulo {
+        font-size: 4vw;
+        padding: 1rem 0 2rem 0;
     }
 
     .board__container{
