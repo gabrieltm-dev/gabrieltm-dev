@@ -34,7 +34,7 @@
 }
 
 .image__certificado {
-    width: 100%;
+    width: 85%;
 }
 
 .board__figure figcaption {
@@ -57,12 +57,12 @@
 @media(max-width: 1100px){
     .board{
         margin: 2rem 1rem;
-        padding: 0;
+        padding: 2rem 0;
     }
 
     .board__titulo {
         font-size: 4vw;
-        padding: 1rem 0 2rem 0;
+        padding: .25rem 0 2rem 0;
     }
 
     .board__container{
