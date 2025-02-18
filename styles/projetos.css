@@ -22,7 +22,7 @@
 }
 
 .container__certificado li {
-    width: 40%;
+    width: 30%;
 }
 
 .board__figure {
@@ -61,12 +61,12 @@
     }
 
     .board__titulo {
-        font-size: 4vw;
+        font-size: 5vw;
         padding: .25rem 0 2rem 0;
     }
 
     .board__container{
-        justify-content: flex-start;
+        justify-content: center;
         gap: 2rem 0;
     }
 
@@ -75,7 +75,11 @@
     }
 
     .board__container li{
-        width: 50%;
+        width: 80%;
+    }
+
+    .container__certificado li {
+        width: 70%;
     }
 
     .container__certificado{
